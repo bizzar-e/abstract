@@ -46,17 +46,18 @@ int AbstractResults::numberOfViolationsWithPriority(int priority) const
     }
     return numViolations;
 }
-
+/*
 int AbstractResults::numberOfErrors() const
 {
     return _resultCollector.getCompilerErrorSet()->numberOfViolations();
 }
-
+*/
+/*
 bool AbstractResults::hasErrors() const
 {
     return numberOfErrors() > 0;
 }
-
+*/
 const std::vector<Violation>& AbstractResults::allErrors() const
 {
     return _resultCollector.getCompilerErrorSet()->getViolations();
