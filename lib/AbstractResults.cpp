@@ -67,12 +67,13 @@ int AbstractResults::numberOfWarnings() const
 {
     return _resultCollector.getCompilerWarningSet()->numberOfViolations();
 }
-
+// With errors
+/*
 bool AbstractResults::hasWarnings() const
 {
     return numberOfWarnings() > 0;
 }
-
+*/
 const std::vector<Violation>& AbstractResults::allWarnings() const
 {
     return _resultCollector.getCompilerWarningSet()->getViolations();
