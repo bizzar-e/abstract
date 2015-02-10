@@ -9,10 +9,11 @@ AbstractResults::AbstractResults(const ResultCollector& resultCollector)
 {
 }
 
-int AbstractResults::numberOfFiles() const
-{
-    return _resultCollector.getCollection().size();
-}
+
+// int AbstractResults::numberOfFiles() const
+// {
+//     return _resultCollector.getCollection().size();
+// }
 
 int AbstractResults::numberOfFilesWithViolations() const
 {
@@ -27,10 +28,10 @@ int AbstractResults::numberOfFilesWithViolations() const
     return numFiles;
 }
 
-int AbstractResults::numberOfViolations() const
-{
-    return allViolations().size();
-}
+// int AbstractResults::numberOfViolations() const
+// {
+//     return allViolations().size();
+// }
 
 int AbstractResults::numberOfViolationsWithPriority(int priority) const
 {
