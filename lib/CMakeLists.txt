@@ -18,8 +18,16 @@ ADD_LIBRARY(OCLintRuleSet SHARED
     target_link_libraries (OCLintRuleSet --coverage)
   ENDIF()
 ELSE()
+
 ADD_LIBRARY(OCLintRuleSet
     RuleConfiguration.cpp
     RuleSet.cpp
     )
+
+<!-- Новые правки для очередного тестового коммита -->
+ADD_LIBRARY(OCLintRuleSet
+    RuleConfiguration.cpp
+    RuleSet.cpp
+    )
+
 ENDIF()
