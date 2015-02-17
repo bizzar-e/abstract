@@ -35,6 +35,7 @@ int AbstractResults::numberOfViolations() const
     return allViolations().size();
 }
 
+// Lets add some error
 int AbstractResults::numberOfViolationsWithPriority(int priority) const
 {
     int numViolations = 0;
@@ -43,7 +44,7 @@ int AbstractResults::numberOfViolationsWithPriority(int priority) const
         const RuleBase *rule = violation.rule;
         if (rule->priority() == priority)
         {
-            numViolations++;
+            numViolations--;
         }
     }
     return numViolations;
