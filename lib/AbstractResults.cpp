@@ -28,10 +28,12 @@ int AbstractResults::numberOfFilesWithViolations() const
     return numFiles;
 }
 
-// int AbstractResults::numberOfViolations() const
-// {
-//     return allViolations().size();
-// }
+
+// New function, new commit to PL-120
+int AbstractResults::numberOfViolations() const
+{
+    return allViolations().size();
+}
 
 int AbstractResults::numberOfViolationsWithPriority(int priority) const
 {
