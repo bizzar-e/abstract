@@ -5,7 +5,11 @@ aa nn vv dd dd внт dd dd saaadd
 
 AA BB DD АА ВВ CCssaass ss dd
 
+<<<<<<< HEAD
 aa bb
+=======
+ss
+>>>>>>> origin/master
 
 ss ss dd aa ff ff
 
