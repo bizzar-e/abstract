@@ -5,7 +5,7 @@ aa nn vv dd dd внт dd dd saaadd
 
 AA BB DD АА ВВ CCssaass ss dd
 
-ss
+ss ss
 
 ss ss dd aa ff ff
 
