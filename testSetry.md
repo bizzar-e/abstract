@@ -5,7 +5,7 @@ aa nn vv dd dd внт dd dd saaadd
 
 <<<<<<< HEAD
 
-AA BB
+AA BB CC
 
 aa bb a3 aa bb
 
