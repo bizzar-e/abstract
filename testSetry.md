@@ -7,12 +7,21 @@ aa nn vv dd dd внт dd dd saaadd
 
 AA BB CC DD АА DD ФФ пп aa вв
 
+AA BB
+
 aa bb a3 aa bb
 
 AA BB DD АА ВВ CCssaass ss
 =======
 AA BB DD АА ВВ CCssaass ss dd
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+aa bb
+=======
+ss
+>>>>>>> origin/master
+=======
 ss ss
 >>>>>>> 9411a4547ff851feabefa2e0b3b911a5fc23486b
 
